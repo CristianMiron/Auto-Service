@@ -24,7 +24,7 @@ class AutoService {
 		String result = "Cars in Service: \n";
 
 		for (Car x : carsInService) {
-			result += x.toString();
+			result += x.toString() + "\n";
 		}
 		return result;
 	}

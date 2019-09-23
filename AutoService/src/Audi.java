@@ -9,7 +9,7 @@ class Audi extends Car {
 	}
 
 	public String toString() {
-		String result = (quattro == true) ? "the car is quattro" : "the car is not quattro";
+		String result = (quattro == true) ? " the car is quattro" : " the car is not quattro";
 
 		return super.toString() + result;
 
