@@ -11,7 +11,7 @@ class BMW extends Car{
 	public String toString() {
 		String result = (quattro == true) ? "the car is quattro" : "the car is not quattro";
 
-		return super.toStrin() + result;
+		return super.toString() + result;
 
 	}
 	

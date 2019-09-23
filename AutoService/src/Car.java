@@ -11,7 +11,7 @@ abstract class Car {
 		this.color = color;
 	}
 
-	public String toStrin() {
+	public String toString() {
 		return "Brand: " + brand + " Fabrication year: " + fabricationYear + " Color: " + color;
 	}
 
